@@ -282,8 +282,8 @@ wWinMain(HINSTANCE instance,
         player_x += dt * d_player_x;
         player_y += dt * d_player_y;
         
-        d_player_x *= 0.0f;
-        d_player_y *= 0.0f;
+        d_player_x = 0.0f;
+        d_player_y = 0.0f;
         
         clear_screen(0x111111);
         
